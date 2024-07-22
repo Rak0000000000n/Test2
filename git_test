@@ -4,18 +4,19 @@ using UnityEngine;
 
 public class git_test : MonoBehaviour
 {
-    // самый первый вариант тестового скрипта для гита
+    // тут типа делаю вторую версию того же скрипта
     public int var1;
     public string var2;
 
     void Start()
     {
-        
+        var1 = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
         var1 = int.Parse(var2);
+        var1 += 1;
     }
 }
