@@ -1,0 +1,21 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class git_test : MonoBehaviour
+{
+    // самый первый вариант тестового скрипта для гита
+    public int var1;
+    public string var2;
+
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        var1 = int.Parse(var2);
+    }
+}
