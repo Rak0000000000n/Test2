@@ -4,19 +4,21 @@ using UnityEngine;
 
 public class git_test : MonoBehaviour
 {
-    // тут типа делаю вторую версию того же скрипта
-    public int var1;
-    public string var2;
+    // типа третья версия
+    public int int1; //какая то интовая переменная
+    public string str1; //какая то строковая переменная
 
+    // старт
     void Start()
     {
-        var1 = 0;
+        int var = 0; // создаём новую переменную 
+        int1 = var; // обновляем переменную int1
     }
 
-    // Update is called once per frame
+    // упдейт
     void Update()
     {
-        var1 = int.Parse(var2);
-        var1 += 1;
+        int1 = int.Parse(str1); // обновляем переменную int1 через str1
+        int1 += 1; // увеличиваем переменную int1
     }
 }
